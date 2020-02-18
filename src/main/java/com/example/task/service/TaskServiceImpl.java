@@ -2,7 +2,6 @@ package com.example.task.service;
 
 import com.example.task.model.Task;
 import com.example.task.repository.TaskRepository;
-import jdk.internal.jline.internal.ShutdownHooks;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

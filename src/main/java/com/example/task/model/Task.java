@@ -1,10 +1,13 @@
 package com.example.task.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 import javax.persistence.*;
 import java.time.OffsetDateTime;
 
 @Entity
 @Table(name="task")
+@JsonIgnoreProperties({"hibernateLazyInitializer", "handler"})
 public class Task {
     public int getId() {
         return id;
