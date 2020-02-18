@@ -1,0 +1,83 @@
+{
+	"id": "d2eb25c8-273f-41bb-a0a3-d0acb6fedb21",
+	"name": "Task",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"d145d787-ae91-4a91-af0c-80ea98cdbb00",
+		"590a7367-e2b7-41a0-ade9-f6f9d7c33e58",
+		"43d87c51-e3d4-49c7-bdde-77aa795cd72b"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "43d87c51-e3d4-49c7-bdde-77aa795cd72b",
+			"name": "http://localhost:8082/id/1",
+			"url": "http://localhost:8082/id/1",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "590a7367-e2b7-41a0-ade9-f6f9d7c33e58",
+			"name": "http://localhost:8082/all",
+			"url": "http://localhost:8082/all",
+			"description": "",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "d145d787-ae91-4a91-af0c-80ea98cdbb00",
+			"name": "http://localhost:8082/newAll",
+			"url": "http://localhost:8082/newAll",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"name": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "[{ \"text\":\"My new message 4\",\n \"date\": \"2020-02-17T17:40:46.394328-06:00\"\n},\n{ \"text\":\"My new message 5\",\n \"date\": \"2020-01-17T17:40:46.394328-06:00\"\n},\n{ \"text\":\"My new message 6\",\n \"date\": \"2020-01-15T17:40:46.394328-06:00\"\n}\n]",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
